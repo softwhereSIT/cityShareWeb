@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+#sec-termo{
+    position: fixed;
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    display: none;
+}
+
+#spn-termo-fechar{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-family: "Arial", "Arial Black", "Tahoma", "SansSerif";
+    font-size: 60px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#spn-box_termos-fechar{
+    position: absolute;
+    margin-left: 190px;
+    padding: 4px;
+    background: #191D3D;
+    color: #fff;
+    cursor: pointer;
+}
+
+#spn-box_termos-fechar:hover{
+    background: #ff0000;
+}
+
+#dv-termos_uso{
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    background: #fff;
+    margin: 90px auto auto auto;
+    -webkit-animation-name: animacao; /* Safari 4.0 - 8.0 */
+    animation-name: animacao;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    text-align: center;
+    box-shadow: 0 0 10px #ccc;
+    overflow-wrap: break-word;
+    overflow-y: scroll;
+}
+
+#dv-termos_uso p{
+    white-space: pre-line;
+    color: #000;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+@keyframes animacao {
+    0% {margin-top: -500px;}
+    100% {margin-top: 90px;}
+}

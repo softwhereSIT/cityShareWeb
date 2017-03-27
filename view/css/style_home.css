@@ -1,0 +1,565 @@
+@charset "utf-8";
+/*Estilo da página Home*/
+
+label{
+    font-size: 10px;
+    display: block;
+    color: #fff;
+}
+
+/*Area do slider da pagina*/
+#sec-slider, #dv-slider{
+    width: 100%;
+    height: 600px;
+    background: #191D3D;
+    z-index: 7;
+}
+
+/*Slider*/
+#dv-slider{
+    background-image: url("../img/city_1.jpg");
+    opacity: 1;
+    z-index: 7;
+    min-height: 500px;
+    /* Criar o efeito de Parallax */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    overflow: hidden;
+}
+
+#dv-slider-next-prev{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 300px;
+    min-width: 1100px;
+    z-index: 0;
+}
+#img-prev{
+    cursor: pointer;
+}
+
+#img-next{
+    cursor: pointer;
+    float: right;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+#img-prev:hover, #img-next:hover{
+    box-shadow: 0 0 8px #ccc;
+}
+
+/*Area de acesso*/
+#dv-login-cadastro{
+    width: 1024px;
+    height: auto;
+    margin: -500px auto 0 auto;
+    z-index: 200;
+}
+
+/*Area verde de cadastro e acesso ao usuario*/
+#dv-form-login-cadastro{
+    width: 400px;
+    height: 430px;
+    background: rgba(15, 142, 148, 0.8);
+    position: absolute;
+    margin-left: 624px;
+    z-index: 100;
+}
+
+/*Borda superior da area de acesso*/
+#dv-form-login-cadastro:before{
+    content: "";
+    width: 380px;
+    border-top: 0 solid transparent;
+    border-bottom: 20px solid rgba(15, 142, 148, 0.8);
+    border-left: 20px solid transparent;
+    position: absolute;
+    margin-top: -20px;
+}
+
+/*Conteudo da area de cadastro e acesso*/
+#dv-form-conteudo{
+    width:360px;
+    height: 412px;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+/*Area do formulario Entrar*/
+#dv-form-entrar{
+    width: 360px;
+    height: auto;
+    color: #fff;
+    margin: 0 auto 20px auto;
+    overflow: visible;
+}
+
+#dv-form-entrar h2{
+    margin-bottom: 10px;
+}
+
+#dv-form-entrar h2:nth-of-type(3){
+    text-align: center;
+
+}
+
+#dv-form-entrar h2:nth-of-type(2){
+    text-align: center;
+    color: #00ff00;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+}
+
+/*Estilo de campo unico do formulario*/
+.in-unico{
+    width: 346px;
+    padding: 5px;
+    font-style: italic;
+    float: left;
+
+}
+
+/*Estilo padrao de campo do formulario*/
+.in-entrar, .in-default{
+    width: 163px;
+    padding: 5px;
+    margin: 0;
+    font-style: italic;
+    float: left;
+}
+
+/*Padronização do ícone da area de busca*/
+.icon-default{
+    font-family: "Heydings Icons";
+    background: #191D3D;
+    float: left;
+    color: #C7CED5;
+    padding: 5px;
+    border-radius: 2px;
+    position: relative;
+    
+}
+
+/*Campos de entrada de dados*/
+.in-campos{
+    width: 360px;
+    height: 30px;
+    z-index: 10;
+}
+
+/*2 campos na horizontal*/
+.in-2-campos{
+    width: 50%;
+    float: left;
+}
+
+/*3 campos na horizontal*/
+.in-3-campos{
+    float: left;
+}
+
+.in-2-campos:nth-child(1) input{
+    float: left;
+}
+
+.in-2-campos:nth-child(2) input{
+    float: right;
+}
+
+#in-cnpj{
+    float: left;
+}
+
+#in-cidade{
+    width: 266px;
+}
+
+#in-uf{
+    width: 60px;
+}
+
+#in-cad-senha, #in-cad-conf-senha{
+    z-index: 500;
+}
+
+label[for="in-uf"]{
+    position: relative;
+    left:106px;
+}
+
+label[for="in-cad-email"]{
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 0;
+    }
+
+#in-cad-email{
+    position: relative;
+    top: -10px;
+}
+
+.btn-prev-next{
+    margin-top: 10px;
+    border-style: none;
+    width: 130px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.btn-voltar{
+    opacity: 0.7;
+}
+
+.btn-avancar{
+    background: #0f0;
+    float: right;
+}
+
+#in-num, #in-cvv{
+    width: 60px;
+    float: left;
+    margin-left: 6px;
+}
+
+
+#in-complemento, #in-validade{
+    width: 83px;
+    float: right;
+    margin-left: 6px;
+}
+
+
+.in-entrar:focus{
+    outline-color: #00ff00;
+}
+
+.in-entrar:invalid{
+    outline-color: #f00;
+}
+
+.in-entrar:valid{
+    outline-color: #0f0;
+}
+
+#btn-entrar{
+    margin: 10px 0 20px 0;
+    width: 100%;
+    background: #191D3D;
+    border-style: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#btn-entrar:hover{
+    background: linear-gradient(#191D3D, #151D3D);
+    opacity: 0.9;
+}
+
+#dv-form-cadastrar{
+    width: 1440px;
+    height: 185px;
+    background: transparent;
+}
+
+.dv-frm-cadastrar{
+    width: 360px;
+    height: 185px;
+    float: left;
+}
+
+#dv-frm-cadastrar-1{
+    background: transparent;
+}
+
+#dv-frm-cadastrar-2{
+    background: transparent;
+}
+
+#in-cad-nome{
+    width: 346px;
+    margin-bottom: 10px;
+}
+
+#in-cad-email{
+    margin-top: 10px;
+    width: 346px;
+}
+
+
+#btn-continuar1{
+    margin: 0;
+    float: right;
+    background: #00ff00;
+    border-style: none;
+    color: #191D3D;
+    cursor: pointer;
+ }
+
+#btn-continuar1:hover{
+    background: linear-gradient(#00ff00, #00ff45);
+    opacity: 0.9;
+}
+
+#btn-continuar1:disabled{
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+#dv-borda-triangular {
+    position: relative;
+    top: 528px;
+    text-align: center;
+    padding: 12px;
+    margin-bottom: 6px;
+    height: 300px;
+    width: 100%;
+    z-index: 10;
+}
+
+#dv-termos_acordo{
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+}
+
+#dv-termos_acordo a{
+    display: inline-block;
+    border-bottom: 1px solid #fff;
+}
+
+#btn-cadastrar{
+    width: 360px;
+    background: #191D3D;
+    color: #fff;
+    border-style: none;
+    cursor: pointer;
+}
+
+#btn-cadastrar:disabled{
+    opacity: 0.5;
+}
+
+label[for="in-termos"]{
+    position: relative;
+    top:12px;
+    left: 18px;
+}
+
+#dv-borda-triangular:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    background: rgba(255, 255, 255, 0.85);
+    -webkit-transform: skew(0deg, 6deg);
+    -moz-transform: skew(0deg, 6deg);
+    -ms-transform: skew(0deg, 6deg);
+    -o-transform: skew(0deg, 6deg);
+    transform: skew(0deg, 6deg);
+    z-index: 100;
+}
+
+#dv-borda-triangular:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    background: rgba(255, 255, 255, 0.85);
+    -webkit-transform: skew(0deg, -6deg);
+    -moz-transform: skew(0deg, -6deg);
+    -ms-transform: skew(0deg, -6deg);
+    -o-transform: skew(0deg, -6deg);
+    transform: skew(0deg, -6deg);
+    z-index: 100;
+}
+
+/*Area de Conteudo principal do site, contendo lista de produtos*/
+main{
+    width: 1024px;
+    height: 740px;
+    background: #dddddd;
+    margin: auto;
+    display: -webkit-flex; /* Safari */
+    -webkit-align-items: center; /* Safari 7.0+ */
+    display: flex;
+    align-items: center;
+
+}
+
+/*Area de busca*/
+#sec-buscar{
+    width: 100%;
+    height: 200px;
+    -webkit-transform: rotate(-2deg) skew(-2deg);
+    -moz-transform: rotate(-2deg) skew(-2deg);
+    -ms-transform: rotate(-2deg) skew(-2deg);
+    -o-transform: rotate(-2deg) skew(-2deg);
+    transform: rotate(-2deg) skew(-2deg);
+    background: url("../img/road.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#dv-buscar{
+    width: 1024px;
+    height: 100%;
+    margin: auto;
+    display: -webkit-flex; /* Safari */
+    -webkit-align-items: center; /* Safari 7.0+ */
+    display: flex;
+    align-items: center;
+    -webkit-transform: rotate(2deg) skew(2deg);
+    -moz-transform: rotate(2deg) skew(2deg);
+    -ms-transform: rotate(2deg) skew(2deg);
+    -o-transform: rotate(2deg) skew(2deg);
+    transform: rotate(2deg) skew(2deg);
+
+}
+
+#dv-buscar-bg{
+    width: 100%;
+    height: 100%;
+    background: rgba(199, 206, 213, 0.9);
+
+
+}
+
+#dv-form-buscar{
+    display: inline-block;
+}
+
+#dv-in-buscar{
+    width: auto;
+    margin: auto;
+}
+
+#dv-in-buscar label{
+    color: #191D3D;
+}
+
+#dv-in-buscar .in-campos{
+    width: 456px;
+}
+
+#dv-in-buscar .in-default{
+    width: 140px;
+    margin-right: 8px;
+}
+
+#dv-in-buscar h3{
+    font-style: italic;
+
+    text-align: center;
+}
+
+#btn-buscar{
+    width: 80px;
+    height: 30px;
+    margin: 10px 0 0 0;
+    border-style: none;
+    background: #191D3D;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*Menu lateral de categorias*/
+#sec-menu_categorias{
+    width: 200px;
+    height: 100%;
+    background: #191D3D;
+    float: left;
+}
+
+#sec-menu_categorias h2{
+    background: #0F8E94;
+    color: #fff;
+    margin: 20px 0 0 0;
+    padding: 4px;
+    border-bottom: 1px solid #fff;
+}
+
+#sec-menu_categorias h2:before{
+    content: "";
+    width: 0;
+    border-top: 10px solid transparent;
+    border-left: 200px solid rgba(15, 142, 148, 0.8);;
+    position: absolute;
+    margin: -14px 0 0 -4px;
+}
+
+
+#lista_menu_categorias li{
+    background: transparent;
+    padding: 6px 0 6px 20px;
+    border-bottom: 1px solid #fff;
+}
+
+#lista_menu_categorias li:hover{
+    background: #0F8E94;
+    cursor: pointer;
+}
+
+#sec-veiculos{
+    width: 824px;
+    height: 100%;
+    background: #eee;
+    float: right;
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dv-box-veiculo{
+    width: 250px;
+    height: 310px;
+    margin: 20px 0 0 20px;
+    background: #0F8E94;
+    text-align: center;
+}
+
+.dv-img-box-veiculo{
+    width: 100%;
+    height: 200px;
+    background: #aaaaaa;
+}
+
+#dv-paginacao{
+    width: auto;
+    height: 24px;
+    margin: auto;
+}
+
+.dv-paginacao{
+    display: inline-block;
+    background: transparent;
+    color: #191D3D;
+    width: 24px;
+    height: 20px;
+    text-align: center;
+    float: left;
+    border: 1px solid #191D3D;
+    margin-right: 4px;
+    padding-top: 4px;
+    cursor: pointer;
+}
+
+footer{
+    float: left;
+    position: static;
+}
+

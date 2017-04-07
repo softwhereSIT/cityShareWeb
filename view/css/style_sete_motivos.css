@@ -1,0 +1,149 @@
+@charset "utf-8";
+
+body{
+    background: url(../img/urban.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header{
+	background: #191d3d;
+}
+
+#main_7_motivos{
+	background: transparent;
+	position: relative;
+	top: 180px;
+	height: auto;
+}
+
+#dv-mkt{
+    width: 500px;
+    height:auto;
+    margin: auto;
+    text-align: center;
+    background: rgba(15, 142, 148, 0.5);
+    margin-bottom: 120px;
+    color: #191d3d;
+}
+
+#dv-mkt:before{
+    content:"";
+    border-top: 60px solid rgba(15, 142, 148, 0.5);
+    border-left: 500px solid transparent;
+    position: absolute;
+    margin-top: 207px;
+    margin-left: -250px;
+}
+
+strong{
+    color: #fff;
+    font-size: 60px;font-weight: 900;
+}
+
+#dv-mkt h2{
+    line-height: 50px;
+    white-space: pre-line;
+    text-align: center;
+    font-size: 48px;
+}
+
+.dv-motivos-left{
+	width: 1024px;
+	height: 100px;
+	background: #ddd;
+	margin-top: 30px;
+	margin-bottom: 100px;
+	float: left;
+}
+
+.dv-motivos-left:before{
+	content:"";
+	border-bottom: 104px solid #ddd;
+	border-right: 1024px solid transparent;
+	position: absolute;
+	margin-top: -104px;
+}
+
+.dv-motivos-left:after{
+	content:"";
+	border-top: 104px solid #ddd;
+	border-right: 1024px solid transparent;
+	position: absolute;
+	margin-top: 100px;
+
+}
+
+.dv-motivos-right{
+	width: 1024px;
+	height: 100px;
+	background: #bbb;
+	margin-top: 30px;
+	margin-bottom: 100px;
+	float: left;
+
+}
+
+.dv-motivos-right:before{
+	content:"";
+	border-bottom: 104px solid #bbb;
+	border-left: 1024px solid transparent;
+	position: absolute;
+	margin-top: -104px;
+}
+
+.dv-motivos-right:after{
+	content:"";
+	border-top: 104px solid #bbb;
+	border-left: 1024px solid transparent;
+	position: absolute;
+	margin-top: 100px;
+    margin-left: -800px;
+
+}
+
+.dv-img-motivo{
+    width: 200px;
+    height: 200px;
+    -webkit-border-radius:100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    margin-top: -50px;
+    margin-left: 16px;
+    position: absolute;
+    background: #007fff;
+    float: left;
+    z-index: 20;
+    overflow: hidden;
+}
+
+.dv-item-motivo{
+    float: right;
+    width: 800px;
+    height: 100px;
+}
+
+.dv-motivos-right .dv-item-motivo{
+    float: left;
+}
+
+.dv-motivos-right .dv-img-motivo{
+    float: right;
+    margin-left: 810px;
+}
+
+.dv-motivos-right h2, .dv-motivos-right p{
+    text-align: right;
+    margin-top: 4px;
+}
+
+.dv-motivos-left h2, .dv-motivos-left p{
+    margin-top: 4px;
+}
+
+footer{
+	position: relative;
+    top: 200px;
+}

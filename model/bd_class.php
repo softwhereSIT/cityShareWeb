@@ -1,12 +1,20 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: JGuilherme
- * Date: 08/03/2017
- * Time: 08:19
- */
-class mySql_db
-{
+class Db {
 
+    private static $instance = NULL;
+
+    private function __construct() {}
+
+    private function __clone() {}
+
+    public static function getInstance() {
+        if (!isset(self::$instance)) {
+            $pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;
+            self::$instance = new PDO('mysql:host=localhost;dbname=dbcity_share', 'root', '', $pdo_options);
+        }
+        return self::$instance;
+    }
 }
+
+?>

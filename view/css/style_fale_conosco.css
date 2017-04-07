@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+body{
+
+     background-image: url(../img/fale-conosco.jpg);
+}
+
+header{
+    background: #191d3d;
+}
+
+/* PRINCIPAL*/
+#main_fale_conosco{
+    width: 1024px;
+    height: 800px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    background: transparent;
+    border: solid 0px black;
+
+}
+/* DIVS*/
+#sec_cadastro{
+    width: 500px;
+    height: 400px;
+    position: relative;
+    left:500px;
+    background: #0F8E94;
+    box-shadow: 10px 10px 10px #cccccc;
+
+}
+/* DIV DO TITULLO */
+#dv_titulo{
+    width: 480px;
+    height: 30px;
+    border:solid 0px #000;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+/* DIV DO TEXTO "NOME E MENSAGEM" */
+.dv_texto{
+    width: 480px;
+    height: 30px;
+    border: solid 0px #000;
+}
+/* DIV DA INPUT "NOME" */
+#dv_input{
+    width: 500px;
+    height: 30px;
+    border: solid 0px #000;
+}
+/* DIV DOS TEXTOS "EMAIL E WHATSAPP" */
+.dv_email_whats{
+    width: 500px;
+    height: 30px;
+    border: solid 0px #000;
+}
+/* DIV DAS INPUTS DE EMAIL E WHATSAPP*/
+.dv_contato{
+    width: 230px;
+    height: 30px;
+    border: solid 0px #000;
+    float:left;
+}
+.dv_contato_input{
+
+    width: 230px;
+    height: 30px;
+    float:left;
+}
+/* DIV DOS RADIOS */
+#dv_line_radio{
+    width: 500px;
+    height: 20px;
+}
+.dv_radio{
+
+    width: 120px;
+    height: 20px;
+    float:left;
+    margin-top: 10px;
+}
+/* DIV DA TEXTAREA */
+#dv_sugestao{
+
+    width: 500px;
+    height: 100px;
+    margin-top: 20px;
+}
+/* DIV DO BUTTON */
+#dv_button{
+
+    width: 140px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 360px;
+
+}
+
+/* letras */
+
+.letra{
+    font-size: 12px;
+    color: #fff;
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+h2{
+
+    font-size: 17px;
+    color:#191D3D;
+}
+.in-sug{
+    font-size: 12px;
+    color: #fff;
+    position: relative;
+
+}
+
+/* OBJETOS */
+
+input{
+    border-style: none;
+}
+
+#in-nome{
+    margin-left: 20px;
+    width: 430px;
+    height:25px;
+}
+#in-email{
+    margin-left: 20px;
+    width: 200px;
+    height:25px;
+}
+#in-whats{
+
+    margin-left: 20px;
+    width: 200px;
+    height:25px;
+
+}
+.in-sugestao{
+    margin-left: 20px;
+}
+
+#in-textarea{
+
+    width: 435px;
+    height: 100px;
+    margin-left: 20px;
+
+}
+#in-enviar{
+    width: 100px;
+    height: 25px;
+    color:#ffffff;
+    background: #191D3D;
+    border-style: none;
+    box-shadow: 3px 3px 3px #ccc;
+}
+
+footer{
+    position: relative;
+}

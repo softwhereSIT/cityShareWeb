@@ -13,6 +13,7 @@ label{
     height: 600px;
     background: #191D3D;
     z-index: 7;
+    margin-top: -20px;
 }
 
 /*Slider*/
@@ -124,7 +125,6 @@ label{
     padding: 5px;
     font-style: italic;
     float: left;
-
 }
 
 /*Estilo padrao de campo do formulario*/
@@ -532,10 +532,29 @@ main{
     text-align: center;
 }
 
+.dv-box-veiculo h2, h3{
+    margin-top: 20px;
+}
+
 .dv-img-box-veiculo{
     width: 100%;
     height: 200px;
     background: #aaaaaa;
+}
+
+.btn-detalhes{
+    padding: 6px;
+    border-style: none;
+    color: #fff;
+    background: #191D3D;
+    cursor: pointer;
+    margin: 10px 0 0 0;
+}
+
+.btn-detalhes:hover{
+    -webkit-box-shadow: 0 0 10px #ccc;
+    -moz-box-shadow:  0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
 }
 
 #dv-paginacao{
@@ -563,3 +582,18 @@ footer{
     position: static;
 }
 
+#dv-conteudo_rodape .dv-item_conteudo_rodape{
+    height: 140px;
+    float: left;
+    margin: 20px 0 0 40px;
+    border-right: 1px solid #0F8094;
+}
+
+#dv-copyright_rodape{
+    float: left;
+    width: 100%;
+    height: 40px;
+    margin: 30px 0 0 0;
+    text-align: center;
+    font-size: 11px;
+}

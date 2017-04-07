@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+#sec-det-anunciante{
+    position: fixed;
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    display: none;
+}
+
+
+#spn-det_anuncuante-fechar{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-family: "Arial", "Arial Black", "Tahoma", "SansSerif";
+    font-size: 60px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#spn-box_det_anunciante-fechar{
+    position: absolute;
+    margin-left: 190px;
+    padding: 4px;
+    background: #191D3D;
+    color: #fff;
+    cursor: pointer;
+}
+
+#spn-box_det_anunciante-fechar:hover{
+    background: #ff0000;
+}
+
+#dv-det_anunciante{
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    background: #fff;
+    margin: 90px auto auto auto;
+    -webkit-animation-name: animacao; /* Safari 4.0 - 8.0 */
+    animation-name: animacao;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    text-align: center;
+    box-shadow: 0 0 10px #ccc;
+    overflow-wrap: break-word;
+}
+
+#dv-img-anuncinate{
+    width: 100%;
+    height: 230px;
+    margin: 30px 0 0 0;
+    background: #ccc;
+    overflow: hidden;
+}
+
+#dv-img-anuncinate img{
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: 0 0 4px #ccc ;
+    -moz-box-shadow: 0 0 4px #ccc ;
+    box-shadow: 0 0 4px #ccc ;
+}
+
+#dv-img-anuncinate img:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+#dv-attr-anunciante{
+    width: 100%;
+    height: 200px;
+    margin: 20px 0 0 0;
+    background: #ccc;
+}
+
+.svg-star-rate{
+    fill: #ff0;
+    margin-left: -10px;
+    opacity: 0.8;
+}
+
+.svg-star-rate:hover{
+    fill: #ff4;
+    opacity: 1;
+}
+
+@keyframes animacao {
+    0% {margin-top: -500px;}
+    100% {margin-top: 90px;}
+}

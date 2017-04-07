@@ -1,0 +1,95 @@
+body{
+    background: #EEEEEE;
+    margin:0;
+}
+#dv_principal{
+
+    width: 1320px;
+    height: 880px;
+    margin: auto;
+}
+
+main{
+
+    width: 1000px;
+    height: 870px;
+    border:solid 0px black;
+    float:left;
+    margin-left:100px;
+    box-shadow: 5px 5px 5px #cccccc;
+    background: #ffffff;
+}
+#dv_titulo{
+
+    width: 1000px;
+    height:100px;
+    background: #ffffff;
+}
+h1{
+    font-family: SansSerif;
+    color: #0F8E94;
+    position: relative;
+    left:400px;
+    top: 50px;
+    font-size: 30px;
+}
+#dv_cadastro{
+
+    width: 800px;
+    height:500px;
+    margin-top: 100px;
+    margin-left: 100px;
+    box-shadow: 10px 10px 10px #cccccc;
+    background: #EEEEEE;
+}
+#dv_tabela{
+
+    width: 460px;
+    height:100px;
+    margin:auto;
+    position: relative;
+    top: 200px;
+
+}
+.dv_texto{
+    width: 200px;
+    height: 50px;
+    border: solid 0px black;
+    float: left;
+    text-align: center;
+}
+.texto{
+    font-family: SansSerif;
+    font-size: 17px;
+    position: relative;
+    top:7px;
+    color: #0F8E94;
+}
+.dv_input{
+    width: 255px;
+    height: 50px;
+    border: solid 0px black;
+    float: left;
+}
+.input{
+    width: 250px;
+    height: 25px;
+}
+#dv_botao{
+
+    width: 460px;
+    height: 50px;
+    border: solid 0px black;
+    Clear:both;
+}
+#btn_cadastrar{
+
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 130px;
+    font-family: SansSerif;
+    font-size: 15px;
+    background: #ffffff;
+    color: #0F8E94;
+}

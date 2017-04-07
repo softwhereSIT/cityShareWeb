@@ -6,4 +6,23 @@
  * Time: 07:43
  */
 
-echo "router";
+function call($controller, $action) {
+    // require the file that matches the controller name
+    require_once('controller/' . $controller . '_controller.php');
+
+    // create a new instance of the needed controller
+    switch($controller) {
+        //nome do controller
+        case 'site':
+            //require_once('models/funcionario_class.php');
+            $controller = new SiteController();
+            break;
+        
+    }
+
+    // call the action
+    $controller->{ $action }();
+}
+
+
+call($controller, $action);

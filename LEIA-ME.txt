@@ -1,0 +1,8 @@
+acesso: http://localhost/CityShare/
+
+Funcionalidade:
+
+Validações de entrada em js no menu de cadastro, localizado no arquivo 'view/js/app.js'
+Login adm, localizado no link "superintendencia" no menu 'CITY SHARE' localizado no rodapé;
+
+****Obs: Redirecionamos a principal do cms apenas para o teste do usuario. Não há cruds ainda no cms.

@@ -6,16 +6,16 @@
         
         <img src="view/img/logo_cs.png" alt="City Share" title="City Share">
 
-        <form name="frm-sup">
+        <form name="frm-sup" action="index.php?controller=site&action=login_superintendencia" method="post">
             <div id="dv-form-login-sup">
 
-                    <label for="in-sup-email">E-MAIL</label>
-                    <input type="email" id="in-sup-email" name="in-sup-email" class="in-sup-campos" required>
+                <label id="lbl-sup-email" for="in-sup-email">E-MAIL</label>
+                <input type="email" id="in-sup-email" name="in-sup-email" class="in-sup-campos" required>
 
-                <label for="in-sup-senha">SENHA</label>
+                <label id="lbl-sup-senha" for="in-sup-senha">SENHA</label>
                 <input type="password" id="in-sup-senha" name="in-sup-senha" class="in-sup-campos" required>
 
-                    <input type="submit" name="btn-login-sup" id="btn-login-sup" value="Entrar">
+                <input type="submit" name="btn-login-sup" id="btn-login-sup" value="Entrar">
             </div>
         </form>
 

@@ -1,0 +1,118 @@
+body{
+    background: #EEEEEE;
+    margin:0;
+}
+#dv_principal{
+
+    width: 1320px;
+    height: 880px;
+    margin: auto;
+}
+
+main{
+
+    width: 1000px;
+    height: 870px;
+    border:solid 1px black;
+    float:left;
+    margin-left:100px;
+    box-shadow: 5px 5px 5px #cccccc;
+    background: #ffffff;
+}
+#dv_titulo{
+
+    width: 1000px;
+    height:100px;
+    background: #ffffff;
+
+}
+h1{
+    font-family: SansSerif;
+    color: #0F8E94;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+#dv_registros{
+
+    width: 900px;
+    height:500px;
+    margin-top: 50px;
+    margin-left: 50px;
+    box-shadow: 10px 10px 10px #cccccc;
+    background: #EEEEEE;
+
+}
+#dv_titulo_botao{
+
+    width: 900px;
+    height: 60px;
+    border:solid 0px black;
+
+
+}
+#titulo{
+
+    font-family: SansSerif;
+    color: #0F8E94;
+    position: relative;
+    float: left;
+    left:370px;
+    top: 10px;
+
+}
+#dv_botao{
+
+    width: 60px;
+    height: 60px;
+    border:solid 0px black;
+    float: left;
+    position: relative;
+    left: 600px;
+
+}
+#dv_tabela{
+
+    width: 700px;
+    height:400px;
+    margin:auto;
+    position: relative;
+    top: 5px;
+    background: #ffffff;
+    Clear:both;
+
+}
+#dv_linha_dados{
+
+    width: 700px;
+    height:30px;
+    border:solid 0px black;
+    background: #0F8E94;
+}
+.dv_dados{
+
+    width: 350px;
+    height:30px;
+    border:solid 0px black;
+    position: relative;
+    float: left;
+    text-align: center;
+}
+
+.texto{
+
+    font-family: SansSerif;
+    font-size: 15px;
+    color: #ffffff;
+    position: relative;
+    top:5px;
+
+}
+.dv_opcao{
+    width: 340px;
+    height:30px;
+    border:solid 0px black;
+    float: left;
+    text-align: center;
+}

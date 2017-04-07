@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+/*Inserção de imagem na página de dúvidas frequentes, com tamanho de 100%, sem repetição*/
+body{
+    background-image: url("../img/background_duvidas_frequentes.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+header{
+    background: #191d3d;
+    top:0;
+}
+
+/*A tag main foi acrescentado uma cor de fundo, mudança na 'height' para automático e 'padding-bottom' como otimização de vizualização*/
+main{
+    background-color: rgba(248, 248, 255, 0.4);
+    height: auto;
+    width: 1024px;
+    padding-bottom: 150px;
+}
+
+/*Caixa principal da página, responsável por abrigar o título da página, conteúdo e imagem*/
+#dv-conteudo_duvidas_frequentes{
+    width: 95%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*Adequação da posição do título em relação a página*/
+#dv-conteudo_duvidas_frequentes h3{
+    width: auto;
+    height: auto;
+    margin: 100px 0px 10px 0px;
+}
+
+/*'Div' para abrigar os blocos de perguntas e respostas, alinhado a esquerda para receber a imagem da página logo ao lado*/
+#dv-perguntas_respostas{
+    width: 65%;
+    height: auto;
+    float: left;
+}
+
+/*Esilização da classe 'dv-blocos', composto por título da pergunta e resposta*/
+.dv-blocos{
+    width: 90%;
+    height: auto;
+    margin: 15px 0px 0px 0px;
+    background-color: rgba(245, 255, 250, 0.8);
+    padding: 10px;
+}
+
+/*Estilização do título da pergunta*/
+.dv-blocos h4{
+    width: 85%;
+    height: auto;
+    font-style: italic;
+}
+
+/*Estilização da resposta da pergunta*/
+.dv-blocos p{
+    width: 85%;
+    height: auto;
+    text-align: start;
+    letter-spacing: 0.8px;
+    line-height: 15px;
+    margin: 30px 0px 0px 0px;
+}
+
+/*'Div' que compartilha espaço com a 'dv-perguntas_respostas'*/
+#dv-icone_faq{
+    width: 35%;
+    height: 350px;
+    float: right;
+}
+
+/*Abriga a imagem aplicando o border-radius máximo, deixando a 'div' em frma de círculo*/
+#dv-icone{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+/*Estilização da imagem que vai na 'dv-icone'*/
+#dv-icone img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+/*Alteração do footer padrão, especificamente para essa página, pois sem a modificação o rodapé sobe no conteúdo da página*/
+footer{
+    clear: both;
+    position: static;
+    bottom: 0;
+}

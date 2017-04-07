@@ -1,0 +1,110 @@
+body{
+    background: #EEEEEE;
+    margin:0;
+}
+#dv_principal{
+
+    width: 1320px;
+    height: 880px;
+    margin: auto;
+}
+
+main{
+
+    width: 1000px;
+    height: 870px;
+    border:solid 0px black;
+    float:left;
+    margin-left:100px;
+    box-shadow: 5px 5px 5px #cccccc;
+    background: #ffffff
+}
+#dv_titulo{
+
+    width: 1000px;
+    height:100px;
+    background: #ffffff;
+
+}
+h1{
+    font-family: SansSerif;
+    color: #0F8E94;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+#dv_registros{
+
+    width: 950px;
+    height:600px;
+    margin-top: 100px;
+    margin-left: 25px;
+    box-shadow: 10px 10px 10px #cccccc;
+    background: #EEEEEE;
+
+}
+.dv_busca{
+
+    width: 100px;
+    height: 30px;
+    border:solid 0px black;
+    float: left;
+    position: relative;
+    top:20px;
+    left: 10px;
+}
+.busca{
+    width: 300px;
+    height: 25px;
+}
+.busca_texto{
+    color:#0F8E94;
+    font-family: SansSerif;
+    font-size:17px;
+    position: relative;
+    top:5px;
+
+}
+.dv_input{
+
+    width: 300px;
+    height: 30px;
+    border:solid 0px black;
+    float: left;
+    position: relative;
+    top:20px;
+    left: 10px;
+}
+.dv_botao{
+
+    width: 60px;
+    height: 60px;
+    border:solid 0px black;
+    float: left;
+    position: relative;
+    left: 475px;
+
+}
+#dv_tabela{
+
+    width: 930px;
+    height:400px;
+    margin:auto;
+    position: relative;
+    top: 10px;
+    background: #ffffff;
+    Clear:both;
+
+}
+
+#tabela-funcionarios{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#img-btn-add-funcionario{
+    margin-top: 10px;
+    margin-left: 10px;
+}

@@ -231,6 +231,8 @@ $(document).ready(function(){
 
     });
 
+    
+
     $(".btn-voltar").click(function () {
         var margin = $("#dv-form-cadastrar").css("margin-left");
         margin = margin.substr(0, margin.indexOf("px"));
@@ -341,6 +343,15 @@ $(document).ready(function(){
     $("#spn-det_veiculo-fechar, #spn-box_det_veiculo-fechar").click(function () {
         $("#sec-det-veicluo").css("display","none");
     });
+
+    /*4 Exibindo conteudo de detalhes do anunciante*/
+    /*$(".btn-detalhes").click(function () {
+        $("#sec-det-veicluo").css("display","block");
+    });
+
+    $("#spn-det_veiculo-fechar, #spn-box_det_veiculo-fechar").click(function () {
+        $("#sec-det-veicluo").css("display","none");
+    });*/
 
     $(".in-entrar").focus(function () {
         $("#btn-continuar1").removeAttr('disabled');

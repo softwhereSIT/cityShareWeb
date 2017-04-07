@@ -1,0 +1,55 @@
+#sec-slider, #dv-slider{
+    width: 100%;
+    height: 600px;
+    background: #191D3D;
+    z-index: 7;
+}
+
+header{
+    background: #191d3d;
+}
+
+main{
+    width: 1024px;
+    height: 740px;
+    background: #dddddd;
+    margin: auto;
+
+}
+
+#sec-sobreNos{
+    width: 1023px;
+    height: 100%;
+   
+    float: left;
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.dv-Texto{
+    width: 590px;
+    height: 530px;
+    margin: 125px 0 0 20px;
+	line-height:17px;
+	overflow-wrap: break-word;
+	font-family:verdana;
+	line-height: 20px;
+	white-space: pre-line;
+
+}
+.dv-img-box-loja{
+    width: 350px;
+    height: 350px;
+    margin: 280px 0 0 20px;
+    background: #0F8E94;
+	overflow: hidden;
+
+}
+
+footer{
+    position: relative;
+}

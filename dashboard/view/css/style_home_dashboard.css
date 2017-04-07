@@ -1,0 +1,56 @@
+#dv-center_conteudo{
+    background: transparent;
+}
+
+.img-home-dash{
+    position: absolute;
+    opacity: 0.9;
+}
+
+.img-home-dash:hover{
+    opacity: 1;
+}
+
+.img-home-dash:active{
+    transform: scale(1.1);
+}
+
+.img-opc{
+    position: absolute;
+    opacity: 0.3;
+}
+
+#img-forma-vd{
+    margin-left: 280px;
+    margin-top: -90px;
+}
+
+#img-emprestimos{
+    margin-left: 280px;
+    margin-top: 140px;
+}
+
+#img-forma-cz{
+    margin-left: 280px;
+    margin-top: 370px;
+}
+
+#img-dados{
+    margin-top: 25px;
+    margin-left: 90px;
+}
+
+#img-acompanhamento{
+    margin-top: 255px;
+    margin-left: 90px;
+}
+
+#img-anuncios{
+    margin-top: 25px;
+    margin-left: 470px;
+}
+
+#img-historicos{
+    margin-top: 255px;
+    margin-left: 470px;
+}

@@ -1,0 +1,104 @@
+#dv-txt{
+
+    width: 350px;
+    height: 30px;
+    border:solid 0px black;
+    margin-left: 300px;
+    text-align: center;
+    margin-bottom:50px;
+    font-family: Aharoni;
+    margin-top:10px;
+
+}
+
+#dv-menucms{
+
+    width: 700px;
+    height: 110px;
+    border:solid 0px black;
+    margin-left: 120px;
+
+}
+
+.dv-menucms-class{
+
+    width: 135px;
+    height: 110px;
+    overflow: hidden;
+    border-radius: 2px;
+    margin: 0 3px 3px 0;
+    float: left;
+    background-color: #0F8E94;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+#dv-img{
+
+    width: 50px;
+    height: 50px;
+    background-color: #0F8E94;
+    margin-left: 40px;
+    margin-top: 20px;
+
+
+
+
+}
+
+.dv-img-class{
+
+    width: 50px;
+    height: 50px;
+    background-color: #0F8E94;
+    margin-left: 40px;
+    margin-top: 20px;
+
+
+
+
+}
+
+#dv-txt-menu{
+
+    width:70px;
+    height: 20px;
+   background-color: #0F8E94;
+    margin-left:30px;
+    margin-top: 5px;
+    color: #FFFFFF;
+    text-align: center;
+
+
+}
+
+.dv-txt-menu{
+
+    width:100px;
+    height: 20px;
+    background-color:  #0F8E94;
+    margin-left:20px;
+    margin-top: 5px;
+    color: #FFFFFF;
+    text-align: center;
+
+
+
+}
+
+.dv-txt-class{
+
+    width: 350px;
+    height: 30px;
+    border:solid 0px black;
+    margin-left: 300px;
+    text-align: center;
+    margin-bottom:50px;
+    font-family: Aharoni;
+    font-size:30px;
+    padding-top: 15px;
+
+}
+
+
+

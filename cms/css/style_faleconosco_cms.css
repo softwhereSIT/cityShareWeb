@@ -1,0 +1,110 @@
+body{
+
+    background: #EEEEEE;
+    margin:0;
+
+}
+#dv_principal{
+
+    width: 1320px;
+    height: 880px;
+    margin: auto;
+}
+main{
+
+    width: 1024px;
+    height:870px;
+    margin-left: 100px;
+    background: #ffffff;
+    float: left;
+    box-shadow: 5px 5px 5px #cccccc;
+}
+#dv_titulo{
+
+    width: 1024px;
+    height:50px;
+    background: #ffffff;
+}
+h1{
+    font-family: SansSerif;
+    color: #0F8E94;
+    position: relative;
+    left:400px;
+    top: 10px;
+}
+
+#dv_busca{
+
+    width: 650px;
+    height:60px;
+   /* background: #EEEEEE;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+.dv_input_legenda{
+
+    width: 100px;
+    height: 30px;
+    float: left;
+    border:solid 0px black;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 10px;
+}
+.dv_input{
+
+    width: 210px;
+    height: 30px;
+    float: left;
+    border:solid 0px black;
+    margin-top: 15px;
+}
+.legenda{
+
+    font-family: SansSerif;
+    font-size: 15px;
+    color: #0F8E94;
+
+}
+.in-busca{
+
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+}
+#dv_tabela{
+
+    width: 1024px;
+    height:700px;
+    background: #ffffff;
+}
+#dv_linha_dados{
+    width: 1024px;
+    height:40px;
+    border: solid 0px black;
+    background: #0F8E94;
+}
+.dv_dados{
+    width: 200px;
+    height:40px;
+    border:solid 0px black;
+    float: left;
+}
+.dv_opcao{
+    width: 150px;
+    height:40px;
+    border:solid 0px black;
+    float: left;
+}
+.dv_msg{
+    width: 260px;
+    height:40px;
+    border:solid 0px black;
+    float: left;
+}
+.texto{
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    top: 15px;
+}

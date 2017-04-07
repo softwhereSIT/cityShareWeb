@@ -1,0 +1,47 @@
+body{
+   /* overflow-y: hidden;*/
+    background-image: url(../img/city_2.jpg);
+    background-position: center;
+}
+
+header{
+    background: #191d3d;
+    position: fixed;
+    top: 0;
+}
+
+main{
+
+    margin: 80px auto 0 auto;
+    width: 1024px;
+    height: 600px;
+    background: rgba(238, 238, 238, 0.9);
+
+}
+
+#dv-parceiros_city{
+    width: 1000px;
+    height: 500px;
+    margin-top: 20px;
+    overflow: hidden;
+    margin-left: 10px;
+
+}
+
+/*Classe parceiros*/
+.dv-parceiros_share{
+    float: left;
+    background: #0F8E94;
+    width: 180px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 2px;
+    margin: 0 20px 20px 0;
+
+    position: absolute;
+    bottom: 0;
+}
+
+footer{
+    position: static;
+}

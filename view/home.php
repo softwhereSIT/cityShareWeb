@@ -1,38 +1,10 @@
-<!DOCTYPE html>
-
-<html lang="pt-BR">
-    <head>
-        <title>City Share</title>
-
-        <meta charset="UTF-8">
-        <meta name="description" content="Locação de Veículos">
-        <meta name="keywords" content="City, Share, City Share, Compartilhar, Locação, Veículos, Empréstimo"/>
-        <meta name="author" content="City Share"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
-        <link rel="icon" href="favicon.ico" type="image/x-icon" />
-
-        <!-- Estilo da página -->
-        <link rel="stylesheet" href="view/css/style_standard.css">
-        <link rel="stylesheet" href="view/css/style_home.css">
-        <link rel="stylesheet" href="view/css/jquery-ui.css">
-        <link rel="stylesheet" href="view/css/style_login_sup.css">
+﻿        <link rel="stylesheet" href="view/css/style_home.css">
         <link rel="stylesheet" href="view/css/style_termos.css">
         <link rel="stylesheet" href="view/css/style_detalhes_veiculo.css">
-        <link rel="stylesheet" href="view/css/style_detalhes_anuncuante.css">
-
-
-        <!-- Sript da página -->
-        <script src="view/js/jquery.min.js"></script>
-        <script src="view/js/jquery-ui.min.js" charset="UTF-8"></script>
+        <link rel="stylesheet" href="view/css/style_detalhes_anunciante.css">
+        
         <script src="view/js/app.js"></script>
-
-
-    </head>
-
-    <body>
-        <!-- Area modal do login de adm do site-->
-        <?php include_once("login_super_view.php");?>
+        
 
         <!-- Area modal destinada aos termos de uso -->
         <?php include_once("termos_aceite_view.php"); ?>
@@ -40,10 +12,8 @@
         <!-- Area destinada ao detalhamento do veiculo -->
         <?php include_once("detalhes_veiculo_view.php"); ?>
 
-        <!-- Cabeçalho da página contendo o menu superior-->
-        <?php include_once("menu_superior_view.php");?>
-
-
+        <!-- Area destinada ao detalhamento do veiculo -->
+        <?php include_once("detalhes_anunciante_view.php"); ?>
 
         <!-- Slideshow localizado abaixo do menu-->
         <section id="sec-slider">
@@ -63,15 +33,15 @@
                     <div id="dv-form-conteudo">
                         <div id="dv-form-entrar">
                             <h2>ENTRAR</h2>
-                            <form name="frm-entrar" method="post" action="router.php">
+                            <form name="frm-entrar" method="post" action="index.php?controller=site&action=login_cliente">
                             <div class="in-campos">
                                 <div class="in-2-campos">
                                     <label for="in-entrar-email">E-MAIL</label>
-                                    <input type="email" name="in-entrar-email" id="in-entrar-email" class="in-entrar" placeholder="E-mail">
+                                    <input type="email" name="in-entrar-email" id="in-entrar-email" class="in-entrar" placeholder="E-mail" required>
                                 </div>
                                 <div class="in-2-campos">
                                     <label for="in-entrar-senha">SENHA</label>
-                                    <input type="password" name="in-entrar-senha" id="in-entrar-senha" class="in-entrar" placeholder="Senha" minlength="8">
+                                    <input type="password" name="in-entrar-senha" id="in-entrar-senha" class="in-entrar" placeholder="Senha" minlength="8" required>
                                 </div>
                             </div>
 
@@ -302,8 +272,8 @@
                         <img src="" alt="Veiculo" title="Veículo"/>
                     </div>
                     <div>
-                        <h4>Veículo</h4>
-                        <h5>R$ 200,00</h5>
+                        <h3>Veículo</h3>
+                        <h4>R$ 200,00</h4>
 
                         <button class="btn-detalhes">Detalhes</button>
                     </div>
@@ -314,8 +284,8 @@
                         <img src="" alt="Veiculo" title="Veículo"/>
                     </div>
                     <div>
-                        <h4>Veículo</h4>
-                        <h5>R$ 200,00</h5>
+                        <h3>Veículo</h3>
+                        <h4>R$ 200,00</h4>
 
                         <button class="btn-detalhes">Detalhes</button>
                     </div>
@@ -326,8 +296,8 @@
                         <img src="" alt="Veiculo" title="Veículo"/>
                     </div>
                     <div>
-                        <h4>Veículo</h4>
-                        <h5>R$ 200,00</h5>
+                        <h3>Veículo</h3>
+                        <h4>R$ 200,00</h4>
 
                         <button class="btn-detalhes">Detalhes</button>
                     </div>
@@ -338,8 +308,8 @@
                         <img src="" alt="Veiculo" title="Veículo"/>
                     </div>
                     <div>
-                        <h4>Veículo</h4>
-                        <h5>R$ 200,00</h5>
+                        <h3>Veículo</h3>
+                        <h4>R$ 200,00</h4>
 
                         <button class="btn-detalhes">Detalhes</button>
                     </div>
@@ -350,8 +320,8 @@
                         <img src="" alt="Veiculo" title="Veículo"/>
                     </div>
                     <div>
-                        <h4>Veículo</h4>
-                        <h5>R$ 200,00</h5>
+                        <h3>Veículo</h3>
+                        <h4>R$ 200,00</h4>
 
                         <button class="btn-detalhes">Detalhes</button>
                     </div>
@@ -368,11 +338,4 @@
                     <div class="dv-paginacao"> > </div>
                 </div>
             </section>
-
         </main>
-
-        <!-- Rodapé -->
-        <?php include_once("rodape_view.php"); ?>
-    
-    </body>
-</html>

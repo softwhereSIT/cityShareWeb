@@ -6,6 +6,7 @@
     width: 100%;
     height: 100%;
     z-index: 1000;
+    top: 0;
     display: none;
 }
 
@@ -79,13 +80,21 @@
     width: 400px;
     height: auto;
     float: left;
+
 }
 
-#dv-form-login-sup label{
+#lbl-sup-email, #lbl-sup-senha{
     color: #0F8094;
     text-align: left;
     margin-left: 55px;
     margin-top: 10px;
+    font-size: 12px;
+    display: flex;
+}
+
+#in-sup-email, #in-sup-senha{
+    display: flex;
+    padding: 6px;
 }
 
 #btn-login-sup{
